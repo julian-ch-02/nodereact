@@ -1,0 +1,27 @@
+{
+  "name": "nodereact",
+  "version": "1.0.0",
+  "description": "Nodejs React MySql for saving data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian C",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.2",
+    "http": "0.0.1-security",
+    "merge-graphql-schemas": "^1.7.8",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
