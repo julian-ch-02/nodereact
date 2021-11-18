@@ -33,7 +33,7 @@ require("./database/models/index");
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.origin,
+    origin: "https://keepdata.herokuapp.com",
     credentials: true,
   })
 );
