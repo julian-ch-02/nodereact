@@ -31,12 +31,7 @@ require("./database/models/index");
 
 // middlewares
 app.use(cookieParser());
-app.use(
-  cors({
-    origin: true,
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(bodyParser.json({ limit: "5mb" }));
 
 // typedefs
