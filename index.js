@@ -33,7 +33,7 @@ require("./database/models/index");
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:3000", process.env.origin],
+    origin: true,
     credentials: true,
   })
 );
