@@ -52,7 +52,6 @@ const apolloServer = new ApolloServer({
 // applyMiddleware connects Apolloserver to http framework
 apolloServer.applyMiddleware({
   app,
-  cors: false,
 });
 
 // server
