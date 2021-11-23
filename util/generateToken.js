@@ -10,7 +10,7 @@ exports.generateToken = (user) => {
       username: user.username,
     },
     secretKey,
-    { expiresIn: "15m" }
+    { expiresIn: "1d" }
   );
 };
 exports.generateRefreshToken = (user) => {
